@@ -8,15 +8,25 @@
    Base
    ========================================================================== */
 
-body { }
+body { 
+   background: url('/assets/img/content/bg_diagonals.png') repeat;
+}
 
-
+.wrap {
+   bottom: 0px;
+   left: 0px;
+   position: absolute;
+   right: 0px;
+   top: 0px;
+}
 
 /* ==========================================================================
    Header
    ========================================================================== */
 
-.banner { }
+.banner { 
+   margin-bottom: 0px;
+}
 
 
 
@@ -24,7 +34,12 @@ body { }
    Content
    ========================================================================== */
 
-.content { }
+.content { 
+   background: rgba(218, 234, 245, 1);
+   height: 100%;
+   //margin-bottom: 5px;
+   margin-top: 78px;
+}
 
 
 
@@ -32,7 +47,7 @@ body { }
    Primary Content
    ========================================================================== */
 
-.main { }
+.main {}
 
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
@@ -43,7 +58,10 @@ body { }
    Sidebar
    ========================================================================== */
 
-.sidebar { }
+.sidebar { 
+   background: @gray-lighter;
+   padding-top: 5px;
+}
 
 
 
@@ -63,7 +81,14 @@ body { }
    Footer
    ========================================================================== */
 
-.content-info { }
+.content-info { 
+   background: rgba(218, 234, 245, 1);
+   bottom: 0px;
+   color: @gray-darker;
+   left: 10px;
+   position: fixed;
+   right: 10px;
+}
 
 
 
