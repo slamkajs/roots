@@ -15,7 +15,7 @@
 
   <div class="wrap container" role="document">
     <div class="content row">
-      <div class="main <?php echo roots_main_class(); ?>" role="main">
+      <div class="main <?php echo roots_main_class(); ?> clearfix" role="main">
         <?php include roots_template_path(); ?>
       </div><!-- /.main -->
       <?php if (roots_display_sidebar()) : ?>
