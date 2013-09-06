@@ -19,7 +19,9 @@
 // -------------------------
 
 @brand-primary:         #999;
-@brand-light:         	#DAEAF5;
+@brand-dark:            #0E3B59;
+@brand-light:           #DAEAF5;
+@brand-med:             #829EB0;
 @brand-success:         #5cb85c;
 @brand-warning:         #f0ad4e;
 @brand-danger:          #d9534f;
@@ -28,7 +30,7 @@
 // Scaffolding
 // -------------------------
 
-@body-bg:               #0E3B59;//2C7125;
+@body-bg:               #FFF;//2C7125;
 @text-color:            @gray-darker;
 
 // Links
@@ -241,20 +243,20 @@
 @navbar-margin-bottom:             @line-height-computed;
 @navbar-default-color:             #FFF;
 @navbar-default-bg:                rgba(255, 255, 255, .75);//#385b73;
-@navbar-default-border:            @body-bg;
+@navbar-default-border:            @brand-dark;
 @navbar-border-radius:             @border-radius-base;
 @navbar-padding-horizontal:        floor(@grid-gutter-width / 2);
 @navbar-padding-vertical:          ((@navbar-height - @line-height-computed) / 2);
 
 // Navbar links
 @navbar-default-link-color:                #555;
-@navbar-default-link-hover-color:          @body-bg;
+@navbar-default-link-hover-color:          @brand-dark;
 @navbar-default-link-hover-bg:             inherit;
-@navbar-default-link-hover-border-bottom:  5px solid @brand-light;
+@navbar-default-link-hover-border-bottom:  5px solid @brand-med;
 @navbar-default-link-hover-padding-bottom: 10px;
-@navbar-default-link-active-color:         @body-bg;
+@navbar-default-link-active-color:         @brand-dark;
 @navbar-default-link-active-bg:            #FFF;
-@navbar-default-link-active-border-bottom: 5px solid @body-bg;
+@navbar-default-link-active-border-bottom: 5px solid @brand-dark;
 @navbar-default-link-active-padding-bottom:10px;
 @navbar-default-link-disabled-color:       #ccc;
 @navbar-default-link-disabled-bg:          transparent;
@@ -321,12 +323,12 @@
 
 @nav-tabs-link-hover-border-color:          @gray-lighter;
 
-@nav-tabs-active-link-hover-bg:             @body-bg;
+@nav-tabs-active-link-hover-bg:             @brand-dark;
 @nav-tabs-active-link-hover-color:          @gray;
 @nav-tabs-active-link-hover-border-color:   #ddd;
 
 @nav-tabs-justified-link-border-color:            #ddd;
-@nav-tabs-justified-active-link-border-color:     @body-bg;
+@nav-tabs-justified-active-link-border-color:     @brand-dark;
 
 // Pills
 @nav-pills-active-link-hover-bg:            @component-active-bg;

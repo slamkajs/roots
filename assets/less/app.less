@@ -59,14 +59,15 @@ body {
    ========================================================================== */
 
 .content { 
-   background: #FFF;//rgba(218, 234, 245, 1);
+   background: @brand-light url('/assets/img/content/button_line-reverse.png') repeat-y 100%;
    height: 100%;
    //margin-bottom: 5px;
    padding-top: 50px;
-   box-shadow: 0px 0px 5px @brand-primary;
+   box-shadow: 0px 0px 10px @brand-primary;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+   color: @brand-dark;
    font-family: 'Lobster', cursive;
 }
 
@@ -75,7 +76,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
    ========================================================================== */
 
 .main {
-   background-color: #FFF;
+   padding-right: 38px;
 }
 
 /* Gallery Shortcode */
@@ -88,7 +89,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
    ========================================================================== */
 
 .sidebar { 
-   //background: @gray-lighter;
    padding-top: 10px;
 }
 
@@ -111,7 +111,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
    ========================================================================== */
 
 .content-info { 
-   background: #FFF;//rgba(218, 234, 245, 1);
+   background: @body-bg;//rgba(218, 234, 245, 1);
+   border-top: 1px dashed @brand-med;
    bottom: 0px;
    color: @gray-darker;
    left: 10px;
